@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="eg. Myanmar">
+            <button onclick="search()">Search</button>
+        </div>
+        <div class="weather">
+            <img class="weather-img" src="img/clouds.png" alt="img">
+
+            <div class="temperature">
+                <div class="temp">0°c</div>
+                <div class="city">City</div>
+            </div>
+    
+            <div class="details">
+                <div class="col">
+                    <p class="humidity">0%</p>
+                    <p>Humidity</p>
+                </div>
+                <div class="col">
+                    <p class="wind">0 km/h</p>
+                    <p>Wind Speed</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="project-info">
+        <span class="name">Name: Weather App</span>
+        <span class="pjID">Project ID: A04</span>
+        <span class="date">Date: 3.22.2024</span>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
